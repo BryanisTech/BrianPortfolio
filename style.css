@@ -1,11 +1,12 @@
 *{    
-    
+    max-inline-size: 100%;
     box-sizing: border-box;
+
 }
 
 body{
     margin: auto;
-    background-color: lightgray;
+    background-color: whitesmoke;
 
 }
 
@@ -14,32 +15,57 @@ a{
     margin-left: 50px; 
     color: 口black；
 }
+.name{
+    font-size: 40px;
+}
 .menu-container{
     background-color: white;
     padding: 29px;
 }
-img{
+.brianpic{
     float: left;
     margin-left: 60px;
-    margin-bottom: 0px;
-    height: 500px;
+    height: 600px;
+
 }
 .info-container{
-    background-color: red; 
-    margin: 60px;
-    margin-left: 70px;
-    margin-right: 70px;
-    height: 500px;
+    background: linear-gradient(to right, lightgray, white); 
+    margin: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 550px;
+    border-radius: 20px;
+    
+
+}
+.text-info-container{
+    flex: 1;
+    padding: 20px;
+    overflow-wrap: break-word;
 }
 .aboutme{
     font-size: 40px;
 }
-h1{
-background-color: blue;
-    height: 50px;
+span{
+    font-size: 50px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    
+}
+.essupng{
+    width: 400px;
+    height: 300px;
 }
 .about-container{
-    margin-top: 1px;
-    background-color: blue;
-    
+    width: 300px;
+    padding:20px;
+    background-color: lawngreen;
+}
+.aboutme-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
