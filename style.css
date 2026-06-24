@@ -1,13 +1,14 @@
-*{
+*{    
     
-    margin: auto;
-    height: 500px;
+    box-sizing: border-box;
 }
 
 body{
     margin: auto;
     background-color: lightgray;
+
 }
+
 a{
     font-size: 20px;
     margin-left: 50px; 
@@ -15,20 +16,30 @@ a{
 }
 .menu-container{
     background-color: white;
-    padding: 25px;
-    height: 20px;
+    padding: 29px;
 }
 img{
-    
+    float: left;
     margin-left: 60px;
     margin-bottom: 0px;
+    height: 500px;
 }
 .info-container{
     background-color: red; 
     margin: 60px;
     margin-left: 70px;
     margin-right: 70px;
+    height: 500px;
 }
 .aboutme{
     font-size: 40px;
+}
+h1{
+background-color: blue;
+    height: 50px;
+}
+.about-container{
+    margin-top: 1px;
+    background-color: blue;
+    
 }
