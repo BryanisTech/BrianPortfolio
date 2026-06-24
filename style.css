@@ -1,5 +1,7 @@
 *{
-    font-size: 20px;
+    
+    margin: auto;
+    height: 500px;
 }
 
 body{
@@ -7,16 +9,26 @@ body{
     background-color: lightgray;
 }
 a{
+    font-size: 20px;
     margin-left: 50px; 
     color: 口black；
 }
-menu-container{
+.menu-container{
     background-color: white;
     padding: 25px;
+    height: 20px;
 }
-info-container{
-    background-color:black; 
+img{
+    
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+.info-container{
+    background-color: red; 
     margin: 60px;
     margin-left: 70px;
     margin-right: 70px;
+}
+.aboutme{
+    font-size: 40px;
 }
