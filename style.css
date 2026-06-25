@@ -13,27 +13,38 @@ body{
 .logo{
     font-family:Alien Block;
     font-size: 50px;
-}
 
-a, h1{
-    font-size: 20px;
-    margin-left: 50px; 
-    color: black;       
+}
+a, .logo{
     display: inline-block;
+    margin: 10px;
+    margin-left: 50px;
+
+
 }
 
 a{
-    text-decoration: none;
-    margin-left: 70px;
+    font-size: 20px;
+    color: black;    
+    text-decoration: none;   
+
 }
+
 .name{
-    font-size: 70px;
-    margin:50px;
-    display: center;
+
+    color: WHITE; 
+    font-size: 40px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    width: 30ch;
+    animation: typing 3s steps(30) infinite alternate-reverse;
 }
+
+
 .menu-container{
     background-color: white;
     padding: 5px;
+    
 }
 .brianpic{
     float: left;
@@ -42,16 +53,28 @@ a{
     height: 550px;
     border-radius: 100px;
     box-shadow: 0px 30px 20px -10px #9fcbdf;
+    border: 1px solid whitesmoke;
 
 }
 .info-container{
     background: #B2D5E5; 
     margin: 70px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     min-height: 600px;
     border-radius: 50px;
     
+}
+
+.socials{
+    display: flex;
+    
+    
+    gap: 30px;
+    margin-top: 20px;
+    font-size: 30px;
 }
 .text-info-container{
     flex: 1;
@@ -83,4 +106,9 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes typing {
+    from { width: 0 }
+
 }
