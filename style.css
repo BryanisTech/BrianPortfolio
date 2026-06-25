@@ -1,5 +1,5 @@
 *{  
-    font-family: 'Anton', sans-serif;  
+    font-family: 'Anton', sans-serif; 
     max-inline-size: 100%;
     box-sizing: border-box;
 
@@ -23,10 +23,13 @@ a, h1{
 }
 
 a{
-    margin-left: 60px;
+    text-decoration: none;
+    margin-left: 70px;
 }
 .name{
-    font-size: 30px;
+    font-size: 70px;
+    margin:50px;
+    display: center;
 }
 .menu-container{
     background-color: white;
