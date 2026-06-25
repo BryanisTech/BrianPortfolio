@@ -45,6 +45,9 @@ a{
 
 
 .menu-container{
+    position:sticky;
+    top: 0;
+    z-index: 1000;
     background-color: white;
     padding: 5px;
     
@@ -71,12 +74,10 @@ a{
 box-shadow: rgba(17,17,26,0.1) 6px 2px 16px 0px, rgba(17,17,26,0.1) -6px -2px 16px 0px;
 }
 
-.socials{
-    display: flex;
-    
-    
-    gap: 30px;
-    margin-top: 20px;
+.socials a{
+    display: inline-block;
+    margin: 10px;
+    margin-top: 10px;
     font-size: 30px;
 }
 .text-info-container{
@@ -122,6 +123,7 @@ box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24p
     align-items: center;
     margin-bottom: 70px;
 }
+
 
 @keyframes typing {
     from { width: 0 }
