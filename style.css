@@ -7,7 +7,8 @@
 }
 
 body{
-    margin: auto;
+    margin: 0;               
+    padding-top: 80px;
     background-color: #e6e6e6;
 
 }
@@ -18,7 +19,7 @@ body{
 }
 a, .logo{
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
     margin-left: 50px;
 
 
@@ -36,7 +37,7 @@ a{
 .name{
 
     color: WHITE; 
-    font-size: 40px;
+    font-size: 35px;
     text-wrap: nowrap;
     overflow: hidden;
     width: 30ch;
@@ -45,11 +46,15 @@ a{
 
 
 .menu-container{
-    position:sticky;
+    position:fixed ;
+    right: 0;
+    left: 0;
+    width: 100%;
     top: 0;
     z-index: 1000;
     background-color: white;
     padding: 5px;
+    
     
 }
 .brianpic{
