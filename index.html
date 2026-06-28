@@ -4,59 +4,159 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alien+Block&family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <meta charset="UTF-8">  
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> My Portfolio</title>
+        <title>Brian's Portfolio</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
+
+        <!-- NAV -->
         <div class="menu-container">
-            <h1 class="logo">Brian </h1>
-            <a href="#home">Home</a>
-            <a href="#aboutme">About Me</a>
-            <a href="#projects">Projects</a>   
+            <h1 class="logo">Brian</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#aboutme">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
+
+        <!-- HOME -->
         <div id="home"></div>
         <div class="info-container">
-            <img class="brianpic" src="Image.png" alt="picture">
+            <img class="brianpic" src="Image.png" alt="Brian Benedict P. Baldos">
             
             <div class="text-info-container">
-            <h1 class="name">Hi, I'm <strong style="color:black">Brian Benedict P. Baldos</strong></h1>
-                <p>You Only Live Once So Always Make The Most Of It!!</p>
+                <p class="tagline">You Only Live Once — Make It Count.</p>
+                <h1 class="name">Hi, I'm <strong>Brian Benedict P. Baldos</strong></h1>
                 <p class="description">A passionate and dedicated individual with a strong interest in technology and programming. I am constantly seeking opportunities to learn and grow in the field of software development, and I am committed to delivering high-quality work in every project I undertake.</p>
 
+                <div class="cta-row">
+                    <a class="btn-primary" href="#projects">View Projects</a>
+                    <a class="btn-secondary" href="#contact">Contact Me</a>
+                </div>
+
                 <div class="socials">
-                    <a href="https://www.facebook.com/brianbenedictbaldos.0?"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/brianbenedictbaldos.0?" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
         </div>
 
-        <div id="aboutme" class="aboutme-container">
+        <!-- ABOUT ME -->
+        <div id="aboutme" class="section-header">
             <span>About Me</span>
         </div>
 
         <div class="wrapper">
-            <img class="essupng" src="ESSU.png" alt="">
+            <img class="essupng" src="ESSU.png" alt="Eastern Samar State University">
 
             <div class="about-container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum rem officia eligendi, doloremque, maxime, repellat magnam velit reprehenderit quod error quis ab sapiente quia nulla dolor nihil eos sunt fugiat!</p>
+                <h2>A Little Bit About Me</h2>
+                <p>Hi! I'm a 3rd year Computer Science student at Eastern Samar State University. I always strive to push my limits and exceed expectations in everything I do. I love learning new technologies and sharpening my programming skills.</p>
+                <p>Outside of academics, I focus on personal growth, health, and sometimes I enjoy online games. I believe taking care of oneself is the foundation of success in all areas of life.</p>
+
+                <h2>Interests</h2>
+                <ul class="interest-list">
+                    <li><i class="fa-solid fa-globe"></i> Web Development</li>
+                    <li><i class="fa-solid fa-mobile-screen-button"></i> Mobile App Development</li>
+                    <li><i class="fa-solid fa-gamepad"></i> Game Development</li>
+                </ul>
+
+                <h2>Skills</h2>
+                <div class="skill-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Javascript</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div id="projects" class="section-header">
+            <span>Projects</span>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-img placeholder-img">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Project One</h3>
+                    <p>A short description of this project and the technologies used. Built with HTML, CSS, and JavaScript.</p>
+                    <div class="project-links">
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="2ndyear.jpeg" alt="2nd Year Project">
+                </div>
+                <div class="project-info">
+                    <h3>2nd Year Project</h3>
+                    <p>A project completed during my 2nd year of Computer Science. Focused on applying core programming concepts.</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img placeholder-img">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Project Three</h3>
+                    <p>A mobile-focused project exploring app development concepts and user interface design principles.</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+                    </div>
+                </div>
             </div>
 
         </div>
 
-        <div id="projects" class="projects-container">
-            <span>Projects</span>
+        <!-- CONTACT -->
+        <div id="contact" class="section-header">
+            <span>Contact</span>
         </div>
-            
 
-            <div class="img-container">img 1</div>
-            <div class="img-container">img 2</div>
-            <div class="skills">skills</div>
+        <div class="contact-container">
+            <p class="contact-subtitle">Have a project in mind or just want to say hi? Feel free to reach out!</p>
 
-        
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>brianbaldos@example.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <h4>Facebook</h4>
+                    <a href="https://www.facebook.com/brianbenedictbaldos.0?" target="_blank">Visit Profile</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-brands fa-github"></i>
+                    <h4>GitHub</h4>
+                    <a href="#" target="_blank">View Repos</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>© 2025 Brian Benedict P. Baldos · Built with passion 💙</p>
+        </footer>
+
     </body>
 </html>
