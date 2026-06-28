@@ -141,13 +141,6 @@ nav a:hover {
     max-width: 520px;
 }
 
-/* CTA Buttons */
-.cta-row {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin: 20px 0;
-}
 
 .btn-primary, .btn-secondary {
     font-family: 'Anton', sans-serif;
