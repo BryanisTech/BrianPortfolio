@@ -98,6 +98,7 @@ nav a:hover {
     border: 1px solid whitesmoke;
     flex-shrink: 0;
     object-fit: cover;
+    margin-left: 100px;
 }
 
 .text-info-container {
